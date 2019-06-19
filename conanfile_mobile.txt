@@ -1,0 +1,10 @@
+#mobile
+#edit conanfile_mobile or conanfile_desktop
+
+[requires]
+
+boost/1.70.0@conan/stable
+
+[generators]
+cmake
+
