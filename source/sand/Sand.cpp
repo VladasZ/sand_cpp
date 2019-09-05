@@ -11,6 +11,12 @@ using namespace std;
 
 #include "Sand.hpp"
 
+#include <assimp/scene.h>
+#include <assimp/Importer.hpp>
+#include <assimp/postprocess.h>
+
+static Assimp::Importer _importer;
+
 void sand() {
     cout << "Hello" << endl;
 }
